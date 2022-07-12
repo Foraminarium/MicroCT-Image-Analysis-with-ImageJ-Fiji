@@ -20,7 +20,7 @@ New users should start with the first tool, which is a workflow for all processi
 
 **1. All Processing Workflow - Process and calculate statistics for microCT derived images**
 
-Download the source code: [MicroCTImageAnalysis_All.txt](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/files/9087956/MicroCTImageAnalysis_All.txt)
+Download the source code: [Ex_MicroCTImageAnalysis_All.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex1_MicroCTImageAnalysis_All.ijm)
 
 Download an example dataset:
 
@@ -51,7 +51,7 @@ If the user chooses to generate 3D objects, the 3D object surfaces are reconstru
  
 **2. Object Statistics and Counting for Block**
 
-Download the source code: [MicroCTImageAnalysis_BlockStatistics.txt](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/files/9088022/MicroCTImageAnalysis_BlockStatistics.txt)
+Download the source code: [Ex2_MicroCTImageAnalysis_BlockStatistics.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex2_MicroCTImageAnalysis_BlockStatistics.ijm)
 
 Download an example dataset: 
 
@@ -81,7 +81,7 @@ The 3D Objects Counter is then run to calculate statistics for the processed blo
  
 **3. Divide Blocks into Individuals**
 
-Download the source code: [MicroCTImageAnalysis_DivideBlock.txt](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/files/9088030/MicroCTImageAnalysis_DivideBlock.txt)
+Download the source code: [Ex3_MicroCTImageAnalysis_DivideBlock.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex3_MicroCTImageAnalysis_DivideBlock.ijm)
 
 Download an example dataset:
 
@@ -108,7 +108,7 @@ The block is then split into n individual objects along a user-defined ROI. Know
  
 **4. Individuals Statistics - Batch Process**
 
-Download the source code: [MicroCTImageAnalysis_IndividualsStatistics.txt](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/files/9088035/MicroCTImageAnalysis_IndividualsStatistics.txt)
+Download the source code: [Ex4_MicroCTImageAnalysis_IndividualsStatistics.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex4_MicroCTImageAnalysis_IndividualsStatistics.ijm)
 
 Download an example dataset: 
 
@@ -134,9 +134,9 @@ The user defines the input directory that contains a batch of individual object 
  
 **5. Generate Individual 3D Surfaces – Batch Process**
 
-Download the source code: [MicroCTImageAnalysis_3DSurfaces.txt](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/files/9088059/MicroCTImageAnalysis_3DSurfaces.txt)
+Download the source code: [Ex5_MicroCTImageAnalysis_3DSurfaces.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex5_MicroCTImageAnalysis_3DSurfaces.ijm)
 
-Download an example dataset: 
+Download an example dataset: [N.dutertrei.tif](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/N.dutertrei.tif)
 
 ![3D Object Individuals image3](https://user-images.githubusercontent.com/74202885/178372313-94d7934e-8f58-4031-94a2-9a058b8d8185.png)
 *Figure 5 - Stack of images as a block and the compiled histogram all slices within the stack A. before any processing, B. after block processing and calculating block statistics using 3D Object Counter, C. after splitting up block along user-defined ROIs.*
