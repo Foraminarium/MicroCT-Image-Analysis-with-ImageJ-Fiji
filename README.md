@@ -20,9 +20,9 @@ New users should start with the first tool, which is a workflow for all processi
 
 **1. All Processing Workflow - Process and calculate statistics for microCT derived images**
 
-Download the source code: [Ex_MicroCTImageAnalysis_All.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex1_MicroCTImageAnalysis_All.ijm)
+Download the source code: [Ex1_MicroCTImageAnalysis_All.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex1_MicroCTImageAnalysis_All.ijm)
 
-Download an example dataset:
+Download an example dataset: [Ex1_MicroCTImageAnalysis_All.gif](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex_MicroCTImageAnalysis_All.gif)
 
 ![Ex1_All](https://user-images.githubusercontent.com/74202885/178371606-397c1383-d174-4d01-b875-5da17dfd80d3.png)
 *Figure 1 – Stack of images as a block and the compiled histogram all slices within the stack A. before any processing, B. after block processing and calculating block statistics using 3D Object Counter, C. after splitting up block along user-defined ROIs.*
@@ -53,7 +53,7 @@ If the user chooses to generate 3D objects, the 3D object surfaces are reconstru
 
 Download the source code: [Ex2_MicroCTImageAnalysis_BlockStatistics.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex2_MicroCTImageAnalysis_BlockStatistics.ijm)
 
-Download an example dataset: 
+Download an example dataset: [Ex2_MicroCTImageAnalysis_BlockStatistics.gif](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex_MicroCTImageAnalysis_All.gif)
 
 ![Calculate_Stats_for_Block_image1](https://user-images.githubusercontent.com/74202885/178371835-f27f8378-5bb7-41db-938c-178eb0ff0a0b.png)
 *Figure 2.1 – Stack of images as a block and the compiled histogram of all slices within the stack A. before background is subtracted, B. after background is subtracted, C. with threshold set to separate objects from the background.*
@@ -83,7 +83,7 @@ The 3D Objects Counter is then run to calculate statistics for the processed blo
 
 Download the source code: [Ex3_MicroCTImageAnalysis_DivideBlock.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex3_MicroCTImageAnalysis_DivideBlock.ijm)
 
-Download an example dataset:
+Download an example dataset: [Ex3_MicroCTImageAnalysis_DivideBlock.gif](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex_MicroCTImageAnalysis_All.gif)
 
 ![Picture1](https://user-images.githubusercontent.com/74202885/178372484-60686f6a-8865-47b3-9622-5b79965e5f4f.png)
 *Figure 2.1 – A. Block divided into individual objects along the user selected ROIs indicated in colored ellipses, B. An example individual object, C. the output of the ROI Manager indicating the coordinates for the defined individual objects for reproducibility.*
