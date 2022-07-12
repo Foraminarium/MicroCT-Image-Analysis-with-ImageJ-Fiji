@@ -110,7 +110,7 @@ The block is then split into n individual objects along a user-defined ROI. Know
 
 Download the source code: [Ex4_MicroCTImageAnalysis_IndividualsStatistics.ijm](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex4_MicroCTImageAnalysis_IndividualsStatistics.ijm)
 
-Download an example dataset: 
+Download an example dataset: [Ex4_MicroCTImageAnalysis_IndividualsStatistics.zip](https://github.com/Foraminarium/MicroCT-Image-Analysis-with-ImageJ-Fiji/blob/main/Ex4_MicroCTImageAnalysis_IndividualsStatistics.zip)
 
 ![Picture2](https://user-images.githubusercontent.com/74202885/178372275-92b0094c-7f91-4837-b811-2b9609915e65.png)
 *Figure 4 – Individual object stack of images and the compiled histogram all slices within the stack A. before any processing, B. after subtracting background and processing. All individuals within the batch are processed as shown in this example.*
